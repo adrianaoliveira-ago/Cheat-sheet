@@ -3,7 +3,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="header-color">
-      <header>Cheat Sheet</header>
+      <header className="header-title">Cheat Sheet</header>
     </div>
   );
 };

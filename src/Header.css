@@ -1,5 +1,19 @@
 .header-color {
-  background-color: aqua;
+  background: rgb(158 53 53);
+  background-image: linear-gradient(
+    90deg,
+    rgb(238 118 228) 0%,
+    rgb(117 241 219) 16%,
+    rgb(198 112 255) 70%,
+    rgba(255, 215, 124, 1) 100%
+  );
   width: 100%;
   padding: 50px;
+}
+
+.header-title {
+  font-family: FontNoot;
+  -webkit-text-stroke: 0.5px #0a0a06;
+  font-size: 50px;
+  text-transform: uppercase;
 }
