@@ -1,0 +1,11 @@
+.cheat-sheet-icon-copy {
+  width: 30px;
+  position: absolute;
+  right: 0px;
+  bottom: 20px;
+  margin-right: 20px;
+}
+
+.cheat-sheet-app {
+  position: relative;
+}

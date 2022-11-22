@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 
 import CheatSheet from "./CheatSheet";
 import Header from "./Header";
+import "./App.css";
+// import IconCopy from "./assets/IconCopy.png";
 
 const CheatPage = () => {
   // const codeStringReactState = `
@@ -67,6 +69,7 @@ const CheatPage = () => {
     console.log("component loaded");
     fetchData();
   }, []);
+
   return (
     <div>
       <Header></Header>
